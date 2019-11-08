@@ -1,3 +1,5 @@
+"use strict";
+
 // # instantiate a 10x10 grid 
 // grid = Grid.new(10, 10) 
 // # get the cell at row 1, 
@@ -6,6 +8,4 @@
 // grid.each_cell do |cell| 
 // # do something to the cell end
 
-function Cell () {
-
-}
+function Cell() {}
