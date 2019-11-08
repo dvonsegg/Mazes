@@ -1,0 +1,36 @@
+{
+  "name": "maze",
+  "version": "1.0.0",
+  "description": "Mazes for Programmers",
+  "main": "cell.js",
+  "scripts": {
+    "babel": "babel --presets es2015 cell.js -o build/cell.bundle.js",
+    "lint": "eslint '**/**' --ext .js,.jsx --env browser,node",
+    "start": "http-server -p 1234",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvonsegg/Mazes.git"
+  },
+  "keywords": [
+    "maze",
+    "javascript"
+  ],
+  "author": "dvonsegg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dvonsegg/Mazes/issues"
+  },
+  "homepage": "https://github.com/dvonsegg/Mazes#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^6.6.0",
+    "eslint-plugin-react": "^7.16.0",
+    "http-server": "^0.11.1",
+    "jest": "^24.9.0"
+  }
+}
