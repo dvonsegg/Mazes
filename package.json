@@ -4,9 +4,10 @@
   "description": "Mazes for Programmers",
   "main": "cell.js",
   "scripts": {
-    "test": "jest",
     "babel": "babel --presets es2015 cell.js -o build/cell.bundle.js",
-    "start": "http-server -p 1234"
+    "lint": "eslint '**/**' --ext .js,.jsx --env browser,node",
+    "start": "http-server -p 1234",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -22,9 +23,7 @@
     "url": "https://github.com/dvonsegg/Mazes/issues"
   },
   "homepage": "https://github.com/dvonsegg/Mazes#readme",
-  "dependencies": {
-    "babel": "^6.23.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
