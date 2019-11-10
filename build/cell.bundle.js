@@ -8,4 +8,29 @@
 // grid.each_cell do |cell| 
 // # do something to the cell end
 
-function Cell() {}
+function Cell() {
+    console.log("Maze App 1");
+    // const row;
+    // const column;
+    // const north;
+    // const south;
+    // const east;
+    // const west;
+
+    // function intialize(row, column) {
+    //     this.row = row;
+    //     this.column = column;
+    //     const links = {};
+    // }
+
+    // function link(cell, bidi) {
+    //     this.bidi = true;
+
+    // }
+
+    // function unlink(cell, bidi){
+    //     this.bidi = true;
+    // }
+}
+
+module.exports = Cell;

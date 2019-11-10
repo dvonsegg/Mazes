@@ -4,7 +4,7 @@
   "description": "Mazes for Programmers",
   "main": "cell.js",
   "scripts": {
-    "babel": "babel --presets es2015 cell.js -o build/cell.bundle.js",
+    "babel": "babel --presets es2015 src/cell.js -o build/cell.bundle.js",
     "lint": "eslint '**/**' --ext .js,.jsx --env browser,node",
     "start": "http-server -p 1234",
     "test": "jest"
@@ -29,6 +29,7 @@
     "babel-core": "^6.26.3",
     "babel-preset-es2015": "^6.24.1",
     "eslint": "^6.6.0",
+    "eslint-plugin-jest": "^23.0.3",
     "eslint-plugin-react": "^7.16.0",
     "http-server": "^0.11.1",
     "jest": "^24.9.0"

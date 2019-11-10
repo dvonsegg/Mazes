@@ -1,6 +1,7 @@
 env:
   browser: true
   es6: true
+  node: true
 extends: 'eslint:recommended'
 globals:
   Atomics: readonly
@@ -12,4 +13,5 @@ parserOptions:
   sourceType: module
 plugins:
   - react
+  - jest
 rules: {}
